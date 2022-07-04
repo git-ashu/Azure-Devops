@@ -5,6 +5,6 @@
 
 pool:
   vmImage: 'ubuntu-latest'
-
+  ContinueOnError: True
 steps:
 - bash: echo "Add other tasks to build, test, and deploy your project"
