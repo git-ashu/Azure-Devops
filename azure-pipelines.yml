@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'ubuntu-latest'
 
 steps:
-  echo:."Add other tasks to build, test, and deploy your project."
+- bash:.echo "Add other tasks to build, test, and deploy your project."
